@@ -28,7 +28,7 @@ $font-base: "Manrope", sans-serif;
 }
 
 .container{
-    background: url("/images/bg-pattern.svg") no-repeat;
+    background: url("../images/bg-pattern.svg") no-repeat;
     background-position: 0% 0%;
     background-size: 100% 65%;
     padding-left: 1rem;
@@ -40,7 +40,7 @@ $font-base: "Manrope", sans-serif;
     flex-direction: column;
     padding: 2rem;
     height: 13rem;
-    background: url("/images/pattern-circles.svg") no-repeat;
+    background: url("../images/pattern-circles.svg") no-repeat;
     background-size: 10rem 10rem;
     background-position: center;
     
@@ -127,7 +127,7 @@ width: 100%;
   -webkit-appearance: none;
   width:35px;
   height: 35px;
-  background-image: url("/images/icon-slider.svg");
+  background-image: url("../images/icon-slider.svg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-color: $color-strong-cyan-bg-slider;
@@ -214,7 +214,7 @@ width: 100%;
     padding-bottom: 0.5rem;
     
     &:before{
-        content: url("/images/icon-check.svg");
+        content: url("../images/icon-check.svg");
         padding-right: 1rem;
     }
 }
