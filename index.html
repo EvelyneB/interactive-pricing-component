@@ -10,12 +10,12 @@
 
 <body>
     <div class="container">
-    <div class="head-txt">
+    <header class="head-txt">
       <h1 class="h1">Simple, traffic-based pricing</h1>
       <p class="p">Sign-up for our 30-day trial. No credit card required.</p>
-    </div>
+    </header>
 
-    <div class="rectangle">
+    <main class="rectangle">
       <div class="pageviews">
         <span class="pageviews__qty" id='view-value'>100k</span>
         &nbsp;Pageviews
@@ -24,7 +24,7 @@
     <!-- Progress Bar section -->
       <div class="progress">
         <div class="progress-bar">
-          <input id="slider" type="range" class="myrange" min="0" max="100" value="0" step="25">
+          <input id="slider" type="range" class="myrange" aria-label="price range slider" min="0" max="100" value="0" step="25">
         </div>
       </div>
 
@@ -37,7 +37,7 @@
 
         <!-- Switch Button -->
         <label class="switch">
-          <input type="checkbox" id='toggle'>
+          <input type="checkbox" id="toggle" aria-label="toggle switch"/>>
           <span class="slider round"></span>
         </label>
 
@@ -55,7 +55,7 @@
           <button class="button" type="button">Start my trial</button>
         </div>
       </div>
-    </div>
+    </main>
   </div>
   
 <script src="script.js"></script>
